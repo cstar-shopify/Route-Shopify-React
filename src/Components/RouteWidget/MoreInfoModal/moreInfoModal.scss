@@ -1,0 +1,456 @@
+.route-modal {
+    width: 550px;
+    border: none;
+    outline: none;
+    // position: absolute;
+    // top: 40px;
+    // left: 40px;
+    // right: 40px;
+    // bottom: 40px;
+  }
+
+  .route-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #00000060;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+#dialog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 13px;
+    width: 550px;
+    background-color: white;
+    z-index: inherit;
+}
+
+#close-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+#close-route-modal {
+    width: 35px;
+    height: 35px;
+    font-size: 26pt;
+    color: grey;
+    margin-right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+#close-route-modal:hover {
+    color: #5EC8DB;
+}
+#close-route-modal:active {
+    font-size: 24pt;
+}
+
+#powered-container {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#powered-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+#powered-wrapper p {
+    font-size: 10pt;
+    margin: 0;
+}
+#powered-wrapper a img {
+    width: 180px;
+    height: auto;
+}
+
+#route-divider {
+    width: 60%;
+    height: 2px;
+    border-bottom:solid 1px grey;
+    margin-bottom: 20px;
+}
+
+#learn-more-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#learn-more-header h2 {
+    width: 90%;
+    text-align: center;
+    text-transform: none;
+    font-weight: 600;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    font-size: 18pt;
+}
+
+#learn-more-header p {
+    width: 90%;
+    text-align: center;
+    margin: 0;
+    color: #0084CC;
+    margin-bottom: 10px;
+}
+
+#description-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+#description-wrapper {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F5F5F5;
+    border-radius: 10px;
+    padding: 10px 0px 10px 0px;
+}
+
+#description-header {
+    text-align: center;
+    text-transform: none;
+    font-weight: 600;
+    letter-spacing: 0px;
+    font-size: 16pt;
+}
+
+#description-content {
+    width: 265px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#lost {
+    width: 265px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#damage {
+    width: 265px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+#theft {
+    width: 265px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+#lost-img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+#damage-img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+#theft-img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+#description-lost {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#description-lost h4 {
+    margin:0;
+}
+#description-lost p {
+    margin: 0;
+    font-size: 10pt;
+    text-align: left;
+    line-height: 1.2;
+    margin-top: -5px;
+}
+#description-damage {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#description-damage h4 {
+    margin:0;
+}
+#description-damage p {
+    margin: 0;
+    font-size: 10pt;
+    text-align: left;
+    line-height: 1.2;
+    margin-top: -5px;
+}
+#description-theft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#description-theft h4 {
+    margin:0;
+}
+#description-theft p {
+    margin: 0;
+    font-size: 10pt;
+    text-align: left;
+    line-height: 1.2;
+    margin-top: -5px;
+}
+#one-click {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#one-click h4 {
+    margin: 0;
+    font-weight: 400;
+}
+#one-click-icon {
+    display: flex;
+    align-items: center;
+}
+#one-click-icon img {
+    width: 30px;
+    height: 30px;
+}
+#one-click-icon h3 {
+    margin: 0;
+    font-weight: 400;
+}
+
+#learn-more-terms {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+#learn-more-terms p {
+    width: 85%;
+    font-size: 10px;
+    line-height: 1.2;
+    text-align: center;
+    color: #9799A8;
+}
+#route_certified_image {
+    width: 140px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 550px) {
+    #dialog {
+        height: 100vh;
+        justify-content: space-between;
+        margin-top:0;
+    }
+}
+
+@media only screen and (max-width: 415px) { /* iPhone Plus */
+    #dialog {
+        border-radius: none;
+    }
+    #powered-container {
+        margin-bottom: 10px;
+    }
+    #route-divider {
+        margin-bottom: 10px;
+    }
+    #learn-more-header {
+        width: 90vw;
+        margin-bottom: 10px;
+    }
+    #learn-more-header h2 {
+        font-size: 14pt;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    #learn-more-header p {
+        margin-top: -5px;
+        margin-bottom: -5px;
+    }
+    #description-box {
+        width: 90vw;
+        margin-bottom: 10px;
+    }
+    #description-header {
+        font-size: 13pt;
+    }
+    #lost-img {
+        width: 25px;
+        height: 25px;
+    }
+    #damage-img {
+        width: 25px;
+        height: 25px;
+    }
+    #theft-img {
+        width: 25px;
+        height: 25px;
+    }
+    #description-lost h4 {
+        font-size: 10pt;
+    }
+    #description-lost p {
+        font-size: 9pt;
+    }
+    #description-damage h4 {
+        font-size: 10pt;
+    }
+    #description-damage p {
+        font-size: 9pt;
+    }
+    #description-theft h4 {
+        font-size: 10pt;
+    }
+    #description-theft p {
+        font-size: 9pt;
+    }
+    #learn-more-terms {
+        width: 90vw;
+    }
+    #learn-more-terms p {
+        width: 90vw;
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    #learn-more-header h2 {
+        font-size: 12pt;
+        margin-top: 10px;
+    }
+    #learn-more-header p {
+        font-size: 10pt;
+        margin-bottom: 5px;
+    }
+    #description-header {
+        font-size: 12pt;
+    }
+    #lost-img {
+        width: 20px;
+        height: 20px;
+    }
+    #damage-img {
+        width: 20px;
+        height: 20px;
+        margin-top: 5px;
+    }
+    #theft-img {
+        width: 20px;
+        height: 20px;
+        margin-top: 5px;
+    }
+    #one-click-icon img {
+        width: 25px;
+        height: 25px;
+    }
+    #one-click-icon h3 {
+        font-size: 12pt;
+    }
+    #one-click h4 {
+        font-size: 10pt;
+    }
+    #learn-more-terms p {
+        font-size: 8px;
+    }
+    #route_certified_image {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 325px) {
+    #powered-wrapper a img {
+        width: 130px;
+    }
+    #route-divider {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #learn-more-header h2 {
+        font-size: 11pt;
+        margin-top: 10px;
+    }
+    #description-header {
+        font-size: 11pt;
+    }
+    #description-content {
+        width: 230px;
+    }
+    #lost {
+        width: 230px;
+    }
+    #damage {
+        width: 230px;
+    }
+    #theft {
+        width: 230px;
+    }
+    #lost-img {
+        width: 20px;
+        height: 20px;
+    }
+    #damage-img {
+        width: 20px;
+        height: 20px;
+    }
+    #theft-img {
+        width: 20px;
+        height: 20px;
+    }
+    #description-lost h4 {
+        font-size: 9pt;
+    }
+    #description-lost p {
+        font-size: 8pt;
+    }
+    #description-damage h4 {
+        font-size: 9pt;
+    }
+    #description-damage p {
+        font-size: 8pt;
+    }
+    #description-theft h4 {
+        font-size: 9pt;
+    }
+    #description-theft p {
+        font-size: 8pt;
+    }
+    #learn-more-terms p {
+        font-size: 8px;
+    }
+    #route_certified_image {
+        width: 110px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
