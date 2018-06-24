@@ -1,8 +1,7 @@
 #widget-body {
   width: 100vw;
   height: 100vh;
-  display: flex;
-  border: solid; }
+  display: flex; }
 
 #route-main {
   width: 100%;
@@ -132,8 +131,7 @@
 
 @media only screen and (max-width: 415px) {
   #route-content {
-    width: 90vw;
-    padding: 0px 10px 0px 10px; }
+    width: 90vw; }
   #widget-top {
     width: 90vw; }
   #rightside {
