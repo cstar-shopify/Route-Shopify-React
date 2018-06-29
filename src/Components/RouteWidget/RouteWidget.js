@@ -78,12 +78,12 @@ class RouteWidget extends Component {
                         </div>
                     </div>
                     <div id="widget-bottom">
-                        <div id="widget-powered-by">
+                        <a id="widget-powered-by" href="https://www.routeapp.io/" target="_blank">
                             <p>Powered by</p>
                             <img src={RouteLogoWhite} alt="route logo"/>
-                        </div>
+                        </a>
                         <div id="widget-more-info">
-                            <button id="routehelp" onClick={this.openModal}>
+                            <button id="routehelp" onMouseOver={this.openModal}>
                                 <p>More Info</p>
                                 <img src={InfoIcon} alt="info icon"/>
                             </button>
